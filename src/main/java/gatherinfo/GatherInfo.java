@@ -1,15 +1,13 @@
 package gatherinfo;
 
-import assiginandcheck.Putpoint;
+import assiginandcheck.AssignPoint;
 
 import java.util.Scanner;
 import java.util.logging.Logger;
 
-public class GatherInfo extends Putpoint{
-    private Scanner sc = new Scanner(System.in);
-    private Logger l = Logger.getLogger("GatherInfo");
-    private int xAxis;
-    private int yAxis;
+public class GatherInfo extends AssignPoint {
+    private final Scanner sc = new Scanner(System.in);
+    private final Logger l = Logger.getLogger("GatherInfo");
 
     public GatherInfo(int pointOne, int pointTwo)
     {
@@ -19,9 +17,9 @@ public void run()
     {
         try {
             l.info("----- Enter 1st Coordinates ----- \n Enter X - Coordinate : ");
-            xAxis = sc.nextInt();
+            int xAxis = sc.nextInt();
             l.info(" Enter Y - Coordinate : ");
-            yAxis = sc.nextInt();
+            int yAxis = sc.nextInt();
             if ((xAxis <= 0) || (yAxis <= 0)) {
                 throw new NegativeException();
             }
