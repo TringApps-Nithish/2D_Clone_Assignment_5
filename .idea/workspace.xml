@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd407ed2-4e3a-4ede-8bf4-b9b50f702792" name="Changes" comment="done">
-      <change beforePath="$PROJECT_DIR$/src/main/java/gatherinfo/GatherInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gatherinfo/GatherInfo.java" afterDir="false" />
-    </list>
+    <list default="true" id="bd407ed2-4e3a-4ede-8bf4-b9b50f702792" name="Changes" comment="done" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -119,7 +117,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679292472130</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="done">
+      <created>1679292649445</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1679292649445</updated>
+    </task>
+    <task id="LOCAL-00011" summary="done">
+      <created>1679293346408</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1679293346408</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

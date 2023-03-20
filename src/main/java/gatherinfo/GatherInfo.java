@@ -3,11 +3,7 @@ package gatherinfo;
 import assiginandcheck.AssignPoint;
 
 import java.util.Scanner;
-import java.util.logging.Logger;
-
 public class GatherInfo extends AssignPoint {
-    final private transient Scanner sc = new Scanner(System.in);
-    final private transient Logger l = Logger.getLogger("GatherInfo");
 
     public GatherInfo(int pointOne, int pointTwo)
     {
@@ -15,6 +11,7 @@ public class GatherInfo extends AssignPoint {
     }
 public void run() throws CloneNotSupportedException {
         try {
+            Scanner sc = new Scanner(System.in);
             l.info("----- Enter 1st Coordinates ----- \n Enter X - Coordinate : ");
             int xAxis = sc.nextInt();
             l.info(" Enter Y - Coordinate : ");
