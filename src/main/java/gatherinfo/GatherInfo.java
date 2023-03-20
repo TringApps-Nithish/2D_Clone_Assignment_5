@@ -13,8 +13,7 @@ public class GatherInfo extends AssignPoint {
     {
         super(pointOne,pointTwo);
     }
-public void run()
-    {
+public void run() throws CloneNotSupportedException {
         try {
             l.info("----- Enter 1st Coordinates ----- \n Enter X - Coordinate : ");
             int xAxis = sc.nextInt();
@@ -53,8 +52,6 @@ public void run()
             }
         } catch (NegativeException e) {
             l.info("\t ----- Points Less than or Equal to zero is not accepted ----- ");
-        } catch (CloneNotSupportedException e) {
-            throw new RuntimeException(e);
         }
     }
 
