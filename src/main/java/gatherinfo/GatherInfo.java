@@ -6,8 +6,8 @@ import java.util.Scanner;
 import java.util.logging.Logger;
 
 public class GatherInfo extends AssignPoint {
-    private transient final Scanner sc = new Scanner(System.in);
-    private transient final Logger l = Logger.getLogger("GatherInfo");
+    private final transient Scanner sc = new Scanner(System.in);
+    private final transient Logger l = Logger.getLogger("GatherInfo");
 
     public GatherInfo(int pointOne, int pointTwo)
     {
