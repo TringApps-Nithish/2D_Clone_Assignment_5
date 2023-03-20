@@ -6,8 +6,8 @@ import java.util.Scanner;
 import java.util.logging.Logger;
 
 public class GatherInfo extends AssignPoint {
-    private transient Scanner sc = new Scanner(System.in);
-    private transient Logger l = Logger.getLogger("GatherInfo");
+    private transient final Scanner sc = new Scanner(System.in);
+    private transient final Logger l = Logger.getLogger("GatherInfo");
 
     public GatherInfo(int pointOne, int pointTwo)
     {
@@ -30,9 +30,9 @@ public void run() throws CloneNotSupportedException {
                 l.info(" Members of Cloned Object ->  ");
                 clonedPoint.display();
                 l.info("----- Enter 2nd Coordinates ----- \n Enter X - Coordinate : ");
-                xAxis1 = sc.nextInt();
+                int xAxis1 = sc.nextInt();
                 l.info(" Enter Y - Coordinate : ");
-                yAxis1 = sc.nextInt();
+                int yAxis1 = sc.nextInt();
                 if ((xAxis1 <= 0) || (yAxis1 <= 0)) {
                     throw new NegativeException();
                 }
