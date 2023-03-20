@@ -13,7 +13,6 @@ public class AssignPoint extends CloneNotSupportedException implements Cloneable
         yAxis1 = yAxis;
     }
     protected Object clone() throws CloneNotSupportedException
-
     {
         l.info("Object has been Cloned Successfully ....\n");
         return super.clone();
