@@ -54,5 +54,4 @@ public void run() throws CloneNotSupportedException {
             l.info("\t ----- Points Less than or Equal to zero is not accepted ----- ");
         }
     }
-
 }
