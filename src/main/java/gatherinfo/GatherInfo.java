@@ -6,9 +6,10 @@ import java.util.Scanner;
 import java.util.logging.Logger;
 
 public class GatherInfo extends AssignPoint {
-    private final Scanner sc = new Scanner(System.in);
-    private final Logger l = Logger.getLogger("GatherInfo");
-
+    private  Scanner sc = new Scanner(System.in);
+    private  Logger l = Logger.getLogger("GatherInfo");
+    private int xAxis;
+    private int yAxis;
     public GatherInfo(int pointOne, int pointTwo)
     {
         super(pointOne,pointTwo);
@@ -16,9 +17,9 @@ public class GatherInfo extends AssignPoint {
 public void run() throws CloneNotSupportedException {
         try {
             l.info("----- Enter 1st Coordinates ----- \n Enter X - Coordinate : ");
-            int xAxis = sc.nextInt();
+             xAxis = sc.nextInt();
             l.info(" Enter Y - Coordinate : ");
-            int yAxis = sc.nextInt();
+             yAxis = sc.nextInt();
             if ((xAxis <= 0) || (yAxis <= 0)) {
                 throw new NegativeException();
             }

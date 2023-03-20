@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd407ed2-4e3a-4ede-8bf4-b9b50f702792" name="Changes" comment="done">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/assiginandcheck/AssignPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assiginandcheck/AssignPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gatherinfo/GatherInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gatherinfo/GatherInfo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +77,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679290951823</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="done">
+      <created>1679291593338</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679291593338</updated>
+    </task>
+    <task id="LOCAL-00005" summary="done">
+      <created>1679291610758</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679291610758</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
