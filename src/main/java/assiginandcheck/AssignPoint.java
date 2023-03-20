@@ -1,5 +1,6 @@
 package assiginandcheck;
 
+import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class AssignPoint implements Cloneable{
@@ -25,7 +26,7 @@ public class AssignPoint implements Cloneable{
     }
 
     protected void display() {
-        l.info("  x = " + xAxis1 + "\tY = " + yAxis1);
+        l.log(Level.INFO,()->("  x = " + xAxis1 + "\tY = " + yAxis1));
     }
 
 }
