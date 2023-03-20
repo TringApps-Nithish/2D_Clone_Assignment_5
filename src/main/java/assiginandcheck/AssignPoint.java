@@ -4,7 +4,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class AssignPoint extends CloneNotSupportedException implements Cloneable {
-    protected Logger l = Logger.getLogger("GatherInfo");
+    protected final transient Logger l = Logger.getLogger("GatherInfo");
     private final int xAxis1;
     private final int yAxis1;
 
